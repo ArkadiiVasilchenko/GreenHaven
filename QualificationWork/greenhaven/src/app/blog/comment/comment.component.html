@@ -1,0 +1,26 @@
+<div class="app-container">
+  <div class="chat-container">
+    <div class="chat-messages">
+      <div class="message">
+        <div class="sms" *ngFor="let comment of comments">
+          <p>{{ comment.author }}</p>
+          <p>{{ comment.text }}</p>
+        </div>
+      </div>
+    </div>
+    <form
+      class="chat-input"
+      [formGroup]="commentForm"
+      (ngSubmit)="sendComment(commentForm.value)"
+      #formDir="ngForm"
+    >
+      <input
+        type="text"
+        id="message-input"
+        placeholder="Type your message"
+        formControlName="text"
+      />
+      <button type="submit">Send</button>
+    </form>
+  </div>
+</div>

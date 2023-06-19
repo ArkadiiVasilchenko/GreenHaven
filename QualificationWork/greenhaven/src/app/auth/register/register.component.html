@@ -1,0 +1,51 @@
+<section>
+  <div class="form-box">
+    <form
+      [formGroup]="authForm"
+      (ngSubmit)="signUp(authForm.value)"
+      #formDir="ngForm">
+      <h2>Register</h2>
+
+      <div class="inputbox">
+        <input
+          type="name"
+          for="name"
+          class="inputbox_input"
+          autocomplete="off"
+          placeholder=" "
+          formControlName="name"
+        />
+        <label class="inputbox_label">Name</label>
+      </div>
+
+      <div class="inputbox">
+        <input
+          type="email"
+          for="email"
+          class="inputbox_input"
+          autocomplete="off"
+          placeholder=" "
+          formControlName="email"
+        />
+        <label class="inputbox_label">Email</label>
+      </div>
+
+      <div class="inputbox">
+        <input
+          type="password"
+          for="password"
+          class="inputbox_input"
+          autocomplete="off"
+          placeholder=" "
+          formControlName="password"
+        />
+        <label class="inputbox_label">Password</label>
+      </div>
+
+      <button>Register</button>
+      <div class="register">
+        <a routerLink="/auth/login">Login</a>
+      </div>
+    </form>
+  </div>
+</section>

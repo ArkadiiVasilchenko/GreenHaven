@@ -1,0 +1,109 @@
+.previous,
+.next {
+  background: none;
+  display: inline-flex;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 999;
+}
+
+.previous {
+  border-top: 3px solid white;
+  border-left: 3px solid white;
+  border-bottom: 0px;
+  border-right: 0px;
+  transform: rotate(-45deg);
+  left: calc(50% - 470px);
+}
+
+.next {
+  border-top: 3px solid white;
+  border-right: 3px solid white;
+  border-bottom: 0px;
+  border-left: 0px;
+  transform: rotate(45deg);
+  right: calc(50% - 470px);
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.blog {
+  position: relative;
+  width: 100%;
+  max-height: 50vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.slidebutton {
+  width: 900px;
+  min-height: 50vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background: transparent;
+  backdrop-filter: blur(45px);
+  position: relative;
+  overflow: hidden;
+  border-radius: 30px;
+  scrollbar-width: none; /* Убираем ползунок для скроллирования в Firefox */
+  -ms-overflow-style: none; /* Убираем ползунок для скроллирования в IE/Edge */
+}
+
+.slidebutton::-webkit-scrollbar {
+  display: none; /* Убираем ползунок для скроллирования в Chrome/Safari */
+}
+
+.blog .slide {
+  z-index: 888;
+  color: #000000;
+  width: 100%;
+  margin-bottom: 40px;
+  overflow: auto;
+  padding-right: 20px;
+}
+
+.blog .slide h2 {
+  color: #ffffff;
+  font-size: 4em;
+  font-weight: 900;
+  letter-spacing: 3px;
+  line-height: 75px;
+  margin-bottom: 40px;
+  margin-left: 20px;
+}
+
+.blog .slide p {
+  margin-bottom: 15px;
+  margin-left: 60px;
+  margin-right: 40px;
+  text-align: justify;
+  letter-spacing: 1px;
+  text-justify: inter-word;
+  overflow-y: auto;
+}
+
+.blog .slidebutton .comments {
+  width: fit-content;
+  align-self: flex-end;
+  background: #fff;
+  padding: 15px 35px;
+  color: #000000;
+  font-size: 1.1em;
+  font-weight: 500;
+  text-decoration: none;
+  border-radius: 20px;
+  margin-top: auto;
+  margin-right: 730px;
+  margin-bottom: 15px;
+}

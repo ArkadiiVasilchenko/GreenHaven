@@ -1,0 +1,23 @@
+{
+  "Version": 1,
+  "Hash": "N01dJniSN44ETpjIekHQsIM181Wg3ja0XiwaOX/I76s=",
+  "Source": "PostManagementService",
+  "BasePath": "_content/PostManagementService",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "D:\\Arkadii\\Programs\\QualificationWork\\IdentityService\\IdentityService.csproj",
+      "Version": 2,
+      "Source": "IdentityService",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

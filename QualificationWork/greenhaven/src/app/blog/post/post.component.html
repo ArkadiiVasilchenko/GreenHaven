@@ -1,0 +1,13 @@
+<section class="blog" *ngIf="post">
+  <div class="slidebutton">
+    <div class="slide">
+      <h2>{{ post.id }}</h2>
+      <p>
+        {{ post.text }}
+      </p>
+    </div>
+    <button (click)="openComments(post.id)" class="comments">Comments</button>
+  </div>
+  <button (click)="previousPost()" class="previous"></button>
+  <button (click)="nextPost()" class="next"></button>
+</section>

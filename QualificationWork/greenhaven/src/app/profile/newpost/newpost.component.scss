@@ -1,0 +1,78 @@
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.blog {
+  position: relative;
+  width: 100%;
+  max-height: 50vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.slidebutton {
+  width: 900px;
+  min-height: 50vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background: transparent;
+  backdrop-filter: blur(45px);
+  position: relative;
+  overflow: hidden;
+  border-radius: 30px;
+  padding: 0 20px; /* Добавлен отступ слева и справа */
+}
+
+.blog .slide {
+  z-index: 888;
+  color: #000000;
+  width: 100%;
+  margin-bottom: 40px;
+  overflow: auto;
+  padding-right: 20px;
+}
+
+.inputbox {
+  position: relative;
+  margin: 30px auto; /* Используется "auto" для центрирования по горизонтали */
+  width: 600px; /* Изменена ширина элемента */
+  border-bottom: 2px solid #000000;
+}
+
+.inputbox input {
+  width: 100%;
+  height: 50px;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 1em;
+  padding: 0 35px 0 5px;
+  color: #000000;
+  //margin-top: 60px;
+}
+
+.inputbox_title {
+  margin-top: 30px;
+}
+
+.inputbox_text {
+  margin-top: 150px;
+}
+
+button {
+  width: 200px; /* Изменена ширина кнопки на 200px */
+  height: 40px;
+  margin: 0 auto; /* Используется "auto" для центрирования по горизонтали */
+  border-radius: 40px;
+  background: #fff;
+  border: none;
+  outline: none;
+  font-size: 1em;
+  font-weight: 600;
+}

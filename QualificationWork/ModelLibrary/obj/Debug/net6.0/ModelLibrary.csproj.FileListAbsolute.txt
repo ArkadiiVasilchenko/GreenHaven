@@ -1,0 +1,12 @@
+D:\Arkadii\Programs\QualificationWork\ModelLibrary\bin\Debug\net6.0\ModelLibrary.deps.json
+D:\Arkadii\Programs\QualificationWork\ModelLibrary\bin\Debug\net6.0\ModelLibrary.dll
+D:\Arkadii\Programs\QualificationWork\ModelLibrary\bin\Debug\net6.0\ModelLibrary.pdb
+D:\Arkadii\Programs\QualificationWork\ModelLibrary\obj\Debug\net6.0\ModelLibrary.csproj.AssemblyReference.cache
+D:\Arkadii\Programs\QualificationWork\ModelLibrary\obj\Debug\net6.0\ModelLibrary.GeneratedMSBuildEditorConfig.editorconfig
+D:\Arkadii\Programs\QualificationWork\ModelLibrary\obj\Debug\net6.0\ModelLibrary.AssemblyInfoInputs.cache
+D:\Arkadii\Programs\QualificationWork\ModelLibrary\obj\Debug\net6.0\ModelLibrary.AssemblyInfo.cs
+D:\Arkadii\Programs\QualificationWork\ModelLibrary\obj\Debug\net6.0\ModelLibrary.csproj.CoreCompileInputs.cache
+D:\Arkadii\Programs\QualificationWork\ModelLibrary\obj\Debug\net6.0\ModelLibrary.dll
+D:\Arkadii\Programs\QualificationWork\ModelLibrary\obj\Debug\net6.0\refint\ModelLibrary.dll
+D:\Arkadii\Programs\QualificationWork\ModelLibrary\obj\Debug\net6.0\ModelLibrary.pdb
+D:\Arkadii\Programs\QualificationWork\ModelLibrary\obj\Debug\net6.0\ref\ModelLibrary.dll

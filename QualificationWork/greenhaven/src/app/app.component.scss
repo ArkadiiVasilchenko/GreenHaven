@@ -1,0 +1,155 @@
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.home video {
+  z-index: 000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+* {
+  right: 0px;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  background: none;
+}
+
+.slidebar {
+  position: absolute;
+  padding: 330px 0px;
+  width: 60px;
+  height: 100vh;
+  background: none;
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+.slidebar:hover {
+  width: 200px;
+}
+
+.slidebar ul {
+  position: relative;
+  height: 100vh;
+}
+
+.slidebar ul li {
+  list-style: none;
+}
+
+.slidebar ul li:hover {
+  background: none;
+}
+
+.slidebar ul li a {
+  position: relative;
+  display: flex;
+  white-space: nowrap;
+  text-decoration: none;
+}
+
+.svgb {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 50px;
+  height: 60px;
+  font-size: 1.5em;
+  color: #fff;
+}
+
+.svgg {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 50px;
+  height: 60px;
+  font-size: 1.5em;
+  color: #fff;
+}
+
+.svgh {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 50px;
+  height: 60px;
+  font-size: 1.5em;
+  color: #fff;
+}
+
+.slidebar ul li a .text {
+  position: relative;
+  margin-left: 10px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  font-size: 1em;
+  font-weight: 500;
+  color: #000000;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.slidebar ul li.greenhaven {
+  margin-bottom: 50px;
+}
+
+.slidebar ul li.pages{
+  margin-bottom: 10px;
+}
+
+.slidebar ul li.greenhaven:hover {
+  background: transparent;
+  backdrop-filter: blur(15px);
+}
+
+.slidebar ul li.pages:hover {
+  background: transparent;
+  backdrop-filter: blur(15px);
+}
+
+.slidebar ul li .svgh {
+  font-size: 2em;
+}
+
+.slidebar ul li .svgb {
+  font-size: 2em;
+}
+
+.slidebar ul li .svgg {
+  font-size: 2em;
+}
+
+.slidebar ul li.greenhaven .text {
+  font-size: 1.2em;
+  font-weight: 500;
+}
+
+.home h1 {
+  position: fixed;
+  top: 20px;
+  left: 30px;
+  margin: 0;
+  padding: 0;
+  font-size: 55px;
+  //font-family: Brush Script MT, Brush Script Std, cursive;
+  color: #ffffff;
+  z-index: 999;
+}

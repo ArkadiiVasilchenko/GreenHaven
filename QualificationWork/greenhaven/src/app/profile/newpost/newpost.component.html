@@ -1,0 +1,34 @@
+<section class="blog">
+  <div class="slidebutton">
+    <form
+      [formGroup]="postForm"
+      (ngSubmit)="createPost(postForm.value)"
+      #formDir="ngForm"
+    >
+      <div class="slide">
+        <div class="inputbox">
+          <input
+            type="title"
+            for="title"
+            class="inputbox_title"
+            autocomplete="off"
+            placeholder="Title"
+            formControlName="title"
+          />
+        </div>
+
+        <div class="inputbox">
+          <input
+            type="text"
+            for="text"
+            class="inputbox_text"
+            autocomplete="off"
+            placeholder="Text"
+            formControlName="text"
+          />
+        </div>
+      </div>
+      <button>Submit</button>
+    </form>
+  </div>
+</section>
